@@ -1,7 +1,3 @@
-
----
-
-## 📌 Case Study Overview
 Flight delays and cancellations impact airline profitability, passenger satisfaction, and airport efficiency.  
 This project presents an **end-to-end data analytics case study** that uses **interactive Power BI dashboards** to analyze flight delay patterns from **two critical perspectives**:
 
