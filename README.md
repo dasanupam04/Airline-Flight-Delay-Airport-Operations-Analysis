@@ -114,9 +114,4 @@ Flights are treated as transactional records connecting airlines and airports wh
 ## 🚀 Key Takeaway
 This case study demonstrates how **analytics-driven dashboards** can transition from reporting tools to **strategic decision-support systems** in complex operational environments.
 
----
 
-## 📎 Project Status
-✔ Completed  
-✔ Portfolio & Recruiter Ready  
-✔ Academic & Industry Applicable
