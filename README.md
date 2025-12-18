@@ -1,121 +1,126 @@
 
-## 📌 Project Overview
-Flight delays and cancellations are the result of complex interactions between airline operations, airport infrastructure, and system-level constraints. This project presents a **data-driven analytical solution** using **interactive dashboards** to clearly separate and explain:
+---
+
+## 📌 Case Study Overview
+Flight delays and cancellations impact airline profitability, passenger satisfaction, and airport efficiency.  
+This project presents an **end-to-end data analytics case study** that uses **interactive Power BI dashboards** to analyze flight delay patterns from **two critical perspectives**:
 
 - Airline operational performance  
-- Airport congestion and infrastructure impact  
+- Airport congestion and infrastructure constraints  
 
-The dashboards are designed to enable **accurate attribution of delays**, support **root-cause analysis**, and improve **data-backed decision-making**.
+The project focuses on **root-cause analysis**, **fair performance comparison**, and **decision-support analytics** rather than static reporting.
+
+---
+
+## 🎯 Business Problem
+Airline delays are often misattributed due to overlapping responsibilities between airlines, airports, and national air systems.  
+This case study addresses the challenge:
+
+> *How can flight delay data be analyzed to accurately separate airline inefficiencies from airport and infrastructure-driven constraints?*
 
 ---
 
 ## 🎯 Project Objectives
-- Analyze flight delays and cancellations from multiple perspectives  
-- Distinguish airline-driven inefficiencies from airport-driven constraints  
-- Identify dominant delay and cancellation contributors  
-- Enable dynamic, scenario-based exploration using dashboards  
+- Identify key drivers of flight delays and cancellations  
+- Compare airline performance using proportional KPIs  
+- Analyze airport congestion and systemic delay contributors  
+- Enable scenario-based analysis using interactive dashboards  
+- Support operational and strategic decision-making  
 
 ---
 
-## 📊 Project Structure
-
-The analysis is intentionally divided into **two independent dashboards**, each answering a distinct analytical question.
+## 🧩 Solution Approach
+The solution is structured into **two independent analytical dashboards**, each designed to answer a specific business question.
 
 ---
 
-### 1️⃣ Airline Flight Delays Dashboard
+## 📊 Dashboard 1: Airline Flight Delays Analysis
 
-**Focus:** Airline-level operational performance and reliability.
+### Purpose
+Evaluate **airline-level operational reliability** and understand how scheduling and operational dependencies influence delays.
 
-#### Key Analytical Areas
+### Key Analyses
 - On-time arrival and departure performance trends  
 - Airline-wise cancellation rate comparison  
-- Ground operations efficiency through taxi time analysis  
+- Taxi time analysis to separate ground vs air inefficiencies  
 - Delay cause decomposition (airline, weather, system, late aircraft, security)  
-- Scenario analysis using time, distance, and cancellation-reason filters  
+- Distance- and time-based scenario exploration  
 
-#### Core Insight
-> Airline delays are primarily driven by operational interdependencies and schedule ripple effects rather than isolated external disruptions.
+### Business Insight
+Airline delays are largely caused by **schedule ripple effects and late aircraft dependencies**, rather than isolated external disruptions.
 
 ---
 
-### 2️⃣ Airport Analysis Dashboard
+## 📊 Dashboard 2: Airport Operations & Congestion Analysis
 
-**Focus:** Airport-level congestion, infrastructure constraints, and systemic delay drivers.
+### Purpose
+Analyze **airport-level infrastructure stress** and its impact on flight delays and cancellations.
 
-#### Key Analytical Areas
-- Arrival, departure, and taxi time analysis at the airport level  
+### Key Analyses
+- Arrival, departure, and taxi time performance at airports  
 - Identification of high-traffic and congested airports  
-- Airport-wise cancellation cause distribution  
-- Day-of-week and airline-specific congestion patterns  
-- Geographic visualization of delay and traffic concentration  
+- Cancellation reason distribution by airport  
+- Day-of-week congestion patterns  
+- Geographic visualization of delay concentration  
 
-#### Core Insight
-> Airport congestion and capacity limitations significantly amplify delays through multi-factor systemic interactions.
+### Business Insight
+Airport congestion and capacity limitations significantly **amplify delays through systemic interactions**, especially at high-traffic hubs.
 
 ---
 
-## 🧠 Analytical Approach
-- KPI-driven visual analytics instead of raw metrics  
-- Proportional analysis to ensure fair comparisons  
-- Clear separation of airline and airport responsibilities  
-- Root-cause analysis over surface-level reporting  
-- Interactive filters for scenario-based exploration  
+## 🧠 Analytical Methodology
+- KPI-driven analytics instead of raw counts  
+- Proportional metrics for unbiased comparison  
+- Separation of airline vs airport accountability  
+- Root-cause and scenario-based analysis  
+- Interactive filtering for dynamic insights  
 
 ---
 
 ## 🏗️ Data Understanding
-The dataset consists of:
+The dataset includes:
 - Flight-level operational records  
-- Airline identifiers  
-- Airport identifiers and geographic coordinates  
+- Airline and airport identifiers  
 - Delay and cancellation classifications  
+- Geographic coordinates  
 - Temporal attributes (date, month, day of week)  
 
-Flights act as transactional records linking airlines and airports while preserving analytical independence.
+Flights are treated as transactional records connecting airlines and airports while preserving analytical independence.
 
 ---
 
-## 💡 Business & Practical Impact
+## 💡 Business Impact
 
-### ✈️ For Airlines
+### For Airlines
 - Improve schedule robustness  
-- Reduce delay propagation across routes  
-- Optimize aircraft rotation and turnaround planning  
+- Reduce delay propagation  
+- Optimize aircraft rotation planning  
 
-### 🛫 For Airports
-- Identify congestion hotspots  
+### For Airports
+- Identify congestion bottlenecks  
 - Improve runway and gate utilization  
-- Support infrastructure capacity planning  
+- Support infrastructure planning  
 
-### 🏛️ For Regulators & Planners
-- Detect systemic bottlenecks  
-- Enable data-driven policy interventions  
-- Improve national airspace efficiency  
+### For Regulators & Planners
+- Detect systemic constraints  
+- Enable data-driven policy decisions  
+- Improve airspace efficiency  
+
+---
+
+## 🛠️ Tools & Technologies
+- Power BI (Data Modeling, DAX, Visualization)  
+- KPI Design & Dashboard Architecture  
+- Data Analytics & Operational Analysis  
 
 ---
 
 ## 🚀 Key Takeaway
-This project demonstrates how **well-designed dashboards** can evolve from reporting tools into **decision-support systems**, delivering clarity in a complex, multi-stakeholder aviation environment.
-
----
-
-## 🔮 Future Enhancements
-- Predictive delay modeling using machine learning  
-- Weather severity and disruption integration  
-- Real-time flight data streaming  
-- Passenger impact and cost analysis  
-
----
-
-## 🧾 Tools & Technologies
-- Power BI (Data Modeling & Visualization)  
-- Data Analytics & KPI Design  
-- Interactive Dashboards & Slicers  
+This case study demonstrates how **analytics-driven dashboards** can transition from reporting tools to **strategic decision-support systems** in complex operational environments.
 
 ---
 
 ## 📎 Project Status
-✔ Dashboards Completed  
-✔ Analysis Validated  
-✔ Academic & Portfolio Ready
+✔ Completed  
+✔ Portfolio & Recruiter Ready  
+✔ Academic & Industry Applicable
